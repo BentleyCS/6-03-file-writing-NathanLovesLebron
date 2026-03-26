@@ -16,7 +16,7 @@ def writeFile(inputList, fileName): #filename = "InputWriting.txt"
         else:
             TheInput = f"{inputList[i]}\n"
         file.write(TheInput)
-writeFile([12, 93, 9, "Lebron", "James"], "file.txt")
+    return(fileName)
 
 
 def sortNames(fileName, targetFile):
@@ -41,6 +41,7 @@ def sortNames(fileName, targetFile):
         d.write(list[i])
     list[-1] = list[-1].strip()
     d.write(list[-1])
+    return(targetFile)
 
 
 
